@@ -1,0 +1,21 @@
+.weatherInfoComponent {
+    display: flex;
+    /* justify-content:; */
+    margin: 10px;
+}
+
+.weatherInfoComponent img {
+    width: 36px;
+    height: 36px;
+}
+
+.info {
+    font-size: 14px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info span {
+    font-size: 14px;
+}
