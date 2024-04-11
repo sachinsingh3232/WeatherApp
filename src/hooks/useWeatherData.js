@@ -17,6 +17,7 @@ export const useWeatherData = () => {
 			.then(async (response) => {
 				const weatherResponse = await response[0].json();
 				const forecastResponse = await response[1].json();
+				console.log(weatherResponse)
 
 
 				setCurrentWeather(weatherResponse);

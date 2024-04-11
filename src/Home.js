@@ -25,7 +25,7 @@ function Home() {
 
 
 	return (
-		<div className="container">
+		<div className="containers">
 			<Header setUnit={setUnit} />
 			{currentWeather &&
 				<div style={{ display: 'flex', justifyContent: 'center' }} className='item'>
