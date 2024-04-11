@@ -61,7 +61,7 @@ Following are the major dependencies of the project:
 3. Start the application
 
    ```sh
-   npm start in client
+   npm start
    ```
 
 4. Go to http://localhost:3000
