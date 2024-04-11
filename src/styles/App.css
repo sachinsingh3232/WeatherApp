@@ -1,0 +1,27 @@
+/* @import '~normalize.css'; */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:regular,500,700,900);
+
+body {
+	font-family: 'Montserrat';
+}
+
+.container {
+	width: 100%;
+	margin: 0px auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+.item{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+@media screen and (max-width:991px) {
+	.item {
+		flex-wrap: wrap;
+	}
+}
