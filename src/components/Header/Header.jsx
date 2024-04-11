@@ -12,7 +12,7 @@ export default function Header({setUnit}) {
 				<img src={logoImage} alt="Logo" onClick={() => navigate('/')} style={{ cursor: 'pointer' }} />
 				<div className={cl.logoText}>React weather</div>
 			</div>
-			<CFormSelect aria-label="Default select example" onChange={(e) => setUnit(e.target.value)} style={{ width: '110px', backgroundColor: '#4793FF', color: 'white' }}>
+			<CFormSelect aria-label="Default select example" className={cl.select1} onChange={(e) => setUnit(e.target.value)} >
 				<option value="Celsius">Celsius</option>
 				<option value="Fahrenheit ">Fahrenheit </option>
 			</CFormSelect>
