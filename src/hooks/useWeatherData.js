@@ -1,5 +1,5 @@
 import { useState } from "react";
-const WEATHER_API_URL = "http://api.openweathermap.org/data/2.5"
+const WEATHER_API_URL = "https://api.openweathermap.org/data/2.5"
 
 export const useWeatherData = () => {
 	const [currentWeather, setCurrentWeather] = useState(null);
