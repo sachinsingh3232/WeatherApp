@@ -54,6 +54,10 @@ Following are the major dependencies of the project:
    ```
 
 2. Create a file named ".env" inside root folder
+   ```sh
+   REACT_APP_WEATHER_API_KEY=''
+   GOOGLE_API_KEY_GOES_HERE=''
+   ```
 3. Start the application
 
    ```sh
